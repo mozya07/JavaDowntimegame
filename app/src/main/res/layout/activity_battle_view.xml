@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1"
+    android:orientation="vertical"
+    tools:context=".BattleView">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ダンジョンメニュー"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/doroidonomabtn"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/doroidoma" />
+
+    <ImageView
+        android:id="@+id/doroidonomasennseibtn"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/doroidonomasennsei" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/mitei" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/mitei" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/mitei" />
+
+    <ImageView
+        android:id="@+id/returnbeforethebattlebtn"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/returnview" />
+</LinearLayout>

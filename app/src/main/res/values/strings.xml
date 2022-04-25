@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TimerArrange</string>
+    <string name="characternametxt">キャラの名前が表示されるところ</string>
+</resources>

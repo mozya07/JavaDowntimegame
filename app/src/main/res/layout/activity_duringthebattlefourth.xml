@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCE775"
+    android:orientation="vertical"
+    tools:context=".Duringthebattlefourth">
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/charactername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/characternametxt"
+        android:textSize="24sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:background="#DD0c0c">
+
+        <ImageView
+            android:id="@+id/monsterView"
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+            app:srcCompat="@drawable/doroidosinn" />
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="10dp"
+        android:progressDrawable="@drawable/progressbar" />
+
+    <TextView
+        android:id="@+id/zikkyoutxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="状況説明"
+        android:textSize="24sp" />
+
+
+    <LinearLayout
+        android:layout_width="226dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        android:background="#DAD0D0">
+
+        <ImageView
+            android:id="@+id/attackbtn"
+            android:layout_width="224dp"
+            android:layout_height="135dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/toumeiattacks" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="178dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:background="#704404">
+
+        <ImageView
+            android:id="@+id/MycharacterView"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/chibidora" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="10dp"
+        android:progressDrawable="@drawable/progressbar" />
+
+</LinearLayout>
